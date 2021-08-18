@@ -6,6 +6,7 @@
 	"Description" {
 		"" "Quarter-stairs item used when it's needed to climb up 1/4 of voxel. Use the cube type property to modify it's height. Use the button type property to modify the skin (black/white/glass). "
 		"" "* Accepts inputs the same way as original stairs item (and has 'start deployed' checkbox)"
+		"" "* Use the handle and 'start reversed' checkbox to position item as you want"
 		"" "* Doesn't reserve voxel in editor (but that means that it's up to you to not mess it up with other items that occupy space inside the voxel they placed on).\n"
 		"" ""
 		"" "Known Issue: it's model sometimes can be partially seen through the side wall of voxel it placed on. too hard to fix"
