@@ -1,0 +1,9 @@
+"Properties" {
+	"Authors"		"Laudanum"
+	"Tags"			"Custom"
+	"infoURL"		"https:/\/google.com/"
+	"Ent_count"     "16"
+	"Icon" {
+		"0"	"clean/quarter_stairs.png"
+	}
+}

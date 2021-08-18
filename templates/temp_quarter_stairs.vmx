@@ -1,0 +1,1040 @@
+versioninfo
+{
+	"editorversion" "400"
+	"editorbuild" "8973"
+	"mapversion" "26"
+	"formatversion" "100"
+	"prefab" "0"
+}
+visgroups
+{
+	visgroup
+	{
+		"name" "tiles_left"
+		"visgroupid" "8"
+		"color" "131 176 161"
+	}
+	visgroup
+	{
+		"name" "tiles_center"
+		"visgroupid" "9"
+		"color" "180 101 122"
+	}
+	visgroup
+	{
+		"name" "tiles_right"
+		"visgroupid" "10"
+		"color" "201 222 247"
+	}
+	visgroup
+	{
+		"name" "tiles_top"
+		"visgroupid" "11"
+		"color" "194 91 216"
+	}
+}
+viewsettings
+{
+	"bSnapToGrid" "1"
+	"bShowGrid" "1"
+	"bShowLogicalGrid" "0"
+	"nGridSpacing" "16"
+	"bShow3DGrid" "0"
+}
+world
+{
+	"id" "1"
+	"mapversion" "99"
+	"classname" "worldspawn"
+	"detailmaterial" "detail/detailsprites"
+	"detailvbsp" "detail.vbsp"
+	"maxblobcount" "250"
+	"maxpropscreenwidth" "-1"
+	"skyname" "sky_black_nofog"
+	group
+	{
+		"id" "2410"
+		editor
+		{
+			"color" "132 109 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	group
+	{
+		"id" "2419"
+		editor
+		{
+			"color" "132 109 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	group
+	{
+		"id" "2428"
+		editor
+		{
+			"color" "132 109 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	group
+	{
+		"id" "2437"
+		editor
+		{
+			"color" "132 109 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	group
+	{
+		"id" "2446"
+		editor
+		{
+			"color" "132 109 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	group
+	{
+		"id" "2495"
+		editor
+		{
+			"color" "132 109 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	group
+	{
+		"id" "2504"
+		editor
+		{
+			"color" "132 109 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	group
+	{
+		"id" "2513"
+		editor
+		{
+			"color" "132 109 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	group
+	{
+		"id" "2522"
+		editor
+		{
+			"color" "132 109 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	group
+	{
+		"id" "2531"
+		editor
+		{
+			"color" "132 109 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	group
+	{
+		"id" "2540"
+		editor
+		{
+			"color" "132 109 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	group
+	{
+		"id" "2549"
+		editor
+		{
+			"color" "132 109 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	group
+	{
+		"id" "2558"
+		editor
+		{
+			"color" "132 109 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	group
+	{
+		"id" "2623"
+		editor
+		{
+			"color" "132 109 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	group
+	{
+		"id" "2632"
+		editor
+		{
+			"color" "132 109 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+	group
+	{
+		"id" "2641"
+		editor
+		{
+			"color" "132 109 0"
+			"visgroupshown" "1"
+			"visgroupautoshown" "1"
+		}
+	}
+}
+entity
+{
+	"id" "2420"
+	"classname" "bee2_template_colorpicker"
+	"angles" "0 270 0"
+	"grid_snap" "0"
+	"priority" "0"
+	"remove_brush" "1"
+	"targetname" "cp17"
+	"use_pattern" "0"
+	"origin" "-48 -64 -80"
+	editor
+	{
+		"color" "132 109 0"
+		"groupid" "2419"
+		"visgroupid" "8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "2424"
+	"classname" "bee2_template_tilesetter"
+	"angles" "0 0 90"
+	"color" "copy"
+	"color_picker" "cp17"
+	"force" "1"
+	"skin" "2"
+	"origin" "-48 -64 -80"
+	editor
+	{
+		"color" "132 109 0"
+		"groupid" "2419"
+		"visgroupid" "8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "2429"
+	"classname" "bee2_template_colorpicker"
+	"angles" "0 270 0"
+	"grid_snap" "0"
+	"priority" "0"
+	"remove_brush" "1"
+	"targetname" "cp18"
+	"use_pattern" "0"
+	"origin" "-16 -64 -112"
+	editor
+	{
+		"color" "132 109 0"
+		"groupid" "2428"
+		"visgroupid" "8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "2433"
+	"classname" "bee2_template_tilesetter"
+	"angles" "0 0 90"
+	"color" "copy"
+	"color_picker" "cp18"
+	"force" "1"
+	"skin" "2"
+	"origin" "-16 -64 -112"
+	editor
+	{
+		"color" "132 109 0"
+		"groupid" "2428"
+		"visgroupid" "8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "2438"
+	"classname" "bee2_template_colorpicker"
+	"angles" "0 180 0"
+	"grid_snap" "0"
+	"priority" "0"
+	"remove_brush" "1"
+	"targetname" "cp19"
+	"use_pattern" "0"
+	"origin" "-64 -48 -80"
+	editor
+	{
+		"color" "132 109 0"
+		"groupid" "2437"
+		"visgroupid" "9"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "2442"
+	"classname" "bee2_template_tilesetter"
+	"angles" "0 270 90"
+	"color" "copy"
+	"color_picker" "cp19"
+	"force" "1"
+	"skin" "2"
+	"origin" "-64 -48 -80"
+	editor
+	{
+		"color" "132 109 0"
+		"groupid" "2437"
+		"visgroupid" "9"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "2447"
+	"classname" "bee2_template_colorpicker"
+	"angles" "0 270 0"
+	"grid_snap" "0"
+	"priority" "0"
+	"remove_brush" "1"
+	"targetname" "cp20"
+	"use_pattern" "0"
+	"origin" "-48 -64 -112"
+	editor
+	{
+		"color" "132 109 0"
+		"groupid" "2446"
+		"visgroupid" "8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "2451"
+	"classname" "bee2_template_tilesetter"
+	"angles" "0 0 90"
+	"color" "copy"
+	"color_picker" "cp20"
+	"force" "1"
+	"skin" "2"
+	"origin" "-48 -64 -112"
+	editor
+	{
+		"color" "132 109 0"
+		"groupid" "2446"
+		"visgroupid" "8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "2496"
+	"classname" "bee2_template_colorpicker"
+	"angles" "0 180 0"
+	"grid_snap" "0"
+	"priority" "0"
+	"remove_brush" "1"
+	"targetname" "cp21"
+	"use_pattern" "0"
+	"origin" "-64 -16 -80"
+	editor
+	{
+		"color" "132 109 0"
+		"groupid" "2495"
+		"visgroupid" "9"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "2500"
+	"classname" "bee2_template_tilesetter"
+	"angles" "0 270 90"
+	"color" "copy"
+	"color_picker" "cp21"
+	"force" "1"
+	"skin" "2"
+	"origin" "-64 -16 -80"
+	editor
+	{
+		"color" "132 109 0"
+		"groupid" "2495"
+		"visgroupid" "9"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "2505"
+	"classname" "bee2_template_colorpicker"
+	"angles" "0 180 0"
+	"grid_snap" "0"
+	"priority" "0"
+	"remove_brush" "1"
+	"targetname" "cp22"
+	"use_pattern" "0"
+	"origin" "-64 16 -80"
+	editor
+	{
+		"color" "132 109 0"
+		"groupid" "2504"
+		"visgroupid" "9"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "2509"
+	"classname" "bee2_template_tilesetter"
+	"angles" "0 270 90"
+	"color" "copy"
+	"color_picker" "cp22"
+	"force" "1"
+	"skin" "2"
+	"origin" "-64 16 -80"
+	editor
+	{
+		"color" "132 109 0"
+		"groupid" "2504"
+		"visgroupid" "9"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "2514"
+	"classname" "bee2_template_colorpicker"
+	"angles" "0 180 0"
+	"grid_snap" "0"
+	"priority" "0"
+	"remove_brush" "1"
+	"targetname" "cp23"
+	"use_pattern" "0"
+	"origin" "-64 48 -80"
+	editor
+	{
+		"color" "132 109 0"
+		"groupid" "2513"
+		"visgroupid" "9"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "2518"
+	"classname" "bee2_template_tilesetter"
+	"angles" "0 270 90"
+	"color" "copy"
+	"color_picker" "cp23"
+	"force" "1"
+	"skin" "2"
+	"origin" "-64 48 -80"
+	editor
+	{
+		"color" "132 109 0"
+		"groupid" "2513"
+		"visgroupid" "9"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "2523"
+	"classname" "bee2_template_colorpicker"
+	"angles" "0 90 0"
+	"grid_snap" "0"
+	"priority" "0"
+	"remove_brush" "1"
+	"targetname" "cp24"
+	"use_pattern" "0"
+	"origin" "-48 64 -80"
+	editor
+	{
+		"color" "132 109 0"
+		"groupid" "2522"
+		"visgroupid" "10"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "2527"
+	"classname" "bee2_template_tilesetter"
+	"angles" "0 180 90"
+	"color" "copy"
+	"color_picker" "cp24"
+	"force" "1"
+	"skin" "2"
+	"origin" "-48 64 -80"
+	editor
+	{
+		"color" "132 109 0"
+		"groupid" "2522"
+		"visgroupid" "10"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "2532"
+	"classname" "bee2_template_colorpicker"
+	"angles" "0 180 0"
+	"grid_snap" "0"
+	"priority" "0"
+	"remove_brush" "1"
+	"targetname" "cp25"
+	"use_pattern" "0"
+	"origin" "-64 48 -112"
+	editor
+	{
+		"color" "132 109 0"
+		"groupid" "2531"
+		"visgroupid" "9"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "2536"
+	"classname" "bee2_template_tilesetter"
+	"angles" "0 270 90"
+	"color" "copy"
+	"color_picker" "cp25"
+	"force" "1"
+	"skin" "2"
+	"origin" "-64 48 -112"
+	editor
+	{
+		"color" "132 109 0"
+		"groupid" "2531"
+		"visgroupid" "9"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "2541"
+	"classname" "bee2_template_colorpicker"
+	"angles" "0 180 0"
+	"grid_snap" "0"
+	"priority" "0"
+	"remove_brush" "1"
+	"targetname" "cp26"
+	"use_pattern" "0"
+	"origin" "-64 16 -112"
+	editor
+	{
+		"color" "132 109 0"
+		"groupid" "2540"
+		"visgroupid" "9"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "2545"
+	"classname" "bee2_template_tilesetter"
+	"angles" "0 270 90"
+	"color" "copy"
+	"color_picker" "cp26"
+	"force" "1"
+	"skin" "2"
+	"origin" "-64 16 -112"
+	editor
+	{
+		"color" "132 109 0"
+		"groupid" "2540"
+		"visgroupid" "9"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "2550"
+	"classname" "bee2_template_colorpicker"
+	"angles" "0 180 0"
+	"grid_snap" "0"
+	"priority" "0"
+	"remove_brush" "1"
+	"targetname" "cp27"
+	"use_pattern" "0"
+	"origin" "-64 -16 -112"
+	editor
+	{
+		"color" "132 109 0"
+		"groupid" "2549"
+		"visgroupid" "9"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "2554"
+	"classname" "bee2_template_tilesetter"
+	"angles" "0 270 90"
+	"color" "copy"
+	"color_picker" "cp27"
+	"force" "1"
+	"skin" "2"
+	"origin" "-64 -16 -112"
+	editor
+	{
+		"color" "132 109 0"
+		"groupid" "2549"
+		"visgroupid" "9"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "2559"
+	"classname" "bee2_template_colorpicker"
+	"angles" "0 180 0"
+	"grid_snap" "0"
+	"priority" "0"
+	"remove_brush" "1"
+	"targetname" "cp28"
+	"use_pattern" "0"
+	"origin" "-64 -48 -112"
+	editor
+	{
+		"color" "132 109 0"
+		"groupid" "2558"
+		"visgroupid" "9"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "2563"
+	"classname" "bee2_template_tilesetter"
+	"angles" "0 270 90"
+	"color" "copy"
+	"color_picker" "cp28"
+	"force" "1"
+	"skin" "2"
+	"origin" "-64 -48 -112"
+	editor
+	{
+		"color" "132 109 0"
+		"groupid" "2558"
+		"visgroupid" "9"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "2624"
+	"classname" "bee2_template_colorpicker"
+	"angles" "0 90 0"
+	"grid_snap" "0"
+	"priority" "0"
+	"remove_brush" "1"
+	"targetname" "cp29"
+	"use_pattern" "0"
+	"origin" "-16 64 -80"
+	editor
+	{
+		"color" "132 109 0"
+		"groupid" "2623"
+		"visgroupid" "10"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "2628"
+	"classname" "bee2_template_tilesetter"
+	"angles" "0 180 90"
+	"color" "copy"
+	"color_picker" "cp29"
+	"force" "1"
+	"skin" "2"
+	"origin" "-16 64 -80"
+	editor
+	{
+		"color" "132 109 0"
+		"groupid" "2623"
+		"visgroupid" "10"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "2633"
+	"classname" "bee2_template_colorpicker"
+	"angles" "0 90 0"
+	"grid_snap" "0"
+	"priority" "0"
+	"remove_brush" "1"
+	"targetname" "cp30"
+	"use_pattern" "0"
+	"origin" "-16 64 -112"
+	editor
+	{
+		"color" "132 109 0"
+		"groupid" "2632"
+		"visgroupid" "10"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "2637"
+	"classname" "bee2_template_tilesetter"
+	"angles" "0 180 90"
+	"color" "copy"
+	"color_picker" "cp30"
+	"force" "1"
+	"skin" "2"
+	"origin" "-16 64 -112"
+	editor
+	{
+		"color" "132 109 0"
+		"groupid" "2632"
+		"visgroupid" "10"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "2642"
+	"classname" "bee2_template_colorpicker"
+	"angles" "0 90 0"
+	"grid_snap" "0"
+	"priority" "0"
+	"remove_brush" "1"
+	"targetname" "cp31"
+	"use_pattern" "0"
+	"origin" "-48 64 -112"
+	editor
+	{
+		"color" "132 109 0"
+		"groupid" "2641"
+		"visgroupid" "10"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "2646"
+	"classname" "bee2_template_tilesetter"
+	"angles" "0 180 90"
+	"color" "copy"
+	"color_picker" "cp31"
+	"force" "1"
+	"skin" "2"
+	"origin" "-48 64 -112"
+	editor
+	{
+		"color" "132 109 0"
+		"groupid" "2641"
+		"visgroupid" "10"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "1457"
+	"classname" "bee2_template_colorpicker"
+	"angles" "0 270 0"
+	"grid_snap" "0"
+	"priority" "0"
+	"remove_brush" "1"
+	"targetname" "cp1"
+	"use_pattern" "0"
+	"origin" "-16 -64 -80"
+	editor
+	{
+		"color" "132 109 0"
+		"groupid" "2410"
+		"visgroupid" "8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "174"
+	"classname" "bee2_template_tilesetter"
+	"angles" "0 0 90"
+	"color" "copy"
+	"color_picker" "cp1"
+	"force" "1"
+	"skin" "2"
+	"origin" "-16 -64 -80"
+	editor
+	{
+		"color" "132 109 0"
+		"groupid" "2410"
+		"visgroupid" "8"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 500]"
+	}
+}
+entity
+{
+	"id" "86"
+	"classname" "bee2_template_tilesetter"
+	"angles" "0 0 0"
+	"color" "tile"
+	"force" "0"
+	"skin" "5"
+	"origin" "-16 -48 -64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupid" "11"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "96"
+	"classname" "bee2_template_tilesetter"
+	"angles" "0 0 0"
+	"color" "tile"
+	"force" "0"
+	"skin" "5"
+	"origin" "-16 -16 -64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupid" "11"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "98"
+	"classname" "bee2_template_tilesetter"
+	"angles" "0 0 0"
+	"color" "tile"
+	"force" "0"
+	"skin" "5"
+	"origin" "-48 -16 -64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupid" "11"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "112"
+	"classname" "bee2_template_tilesetter"
+	"angles" "0 0 0"
+	"color" "tile"
+	"force" "0"
+	"skin" "5"
+	"origin" "-16 16 -64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupid" "11"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "114"
+	"classname" "bee2_template_tilesetter"
+	"angles" "0 0 0"
+	"color" "tile"
+	"force" "0"
+	"skin" "5"
+	"origin" "-48 16 -64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupid" "11"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "128"
+	"classname" "bee2_template_tilesetter"
+	"angles" "0 0 0"
+	"color" "tile"
+	"force" "0"
+	"skin" "5"
+	"origin" "-16 48 -64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupid" "11"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "130"
+	"classname" "bee2_template_tilesetter"
+	"angles" "0 0 0"
+	"color" "tile"
+	"force" "0"
+	"skin" "5"
+	"origin" "-48 48 -64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupid" "11"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "22"
+	"classname" "bee2_template_conf"
+	"detail_auto_visgroup" "0"
+	"discard_brushes" "0"
+	"is_scaling" "0"
+	"temp_type" "default"
+	"template_id" "TEMP_QUARTER_STAIRS"
+	"origin" "0 0 0"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+entity
+{
+	"id" "17"
+	"classname" "bee2_template_tilesetter"
+	"angles" "0 0 0"
+	"color" "tile"
+	"force" "0"
+	"skin" "5"
+	"origin" "-48 -48 -64"
+	editor
+	{
+		"color" "220 30 220"
+		"visgroupid" "11"
+		"visgroupshown" "1"
+		"visgroupautoshown" "1"
+		"logicalpos" "[0 0]"
+	}
+}
+cameras
+{
+	"activecamera" "-1"
+}
+cordons
+{
+	"active" "0"
+}
