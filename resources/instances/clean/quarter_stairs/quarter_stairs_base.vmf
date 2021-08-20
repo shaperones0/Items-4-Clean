@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8973"
-	"mapversion" "36"
+	"mapversion" "38"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -14,13 +14,13 @@ viewsettings
 	"bSnapToGrid" "1"
 	"bShowGrid" "1"
 	"bShowLogicalGrid" "0"
-	"nGridSpacing" "8"
+	"nGridSpacing" "1"
 	"bShow3DGrid" "0"
 }
 world
 {
 	"id" "1"
-	"mapversion" "36"
+	"mapversion" "38"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -674,7 +674,7 @@ world
 		{
 			"id" "330"
 			"plane" "(-64 -64 -64) (-64 64 -64) (0 64 -64)"
-			"material" "BEE2/INVISIBLE_NOPORTAL"
+			"material" "TOOLS/TOOLSHINT"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -684,8 +684,8 @@ world
 		side
 		{
 			"id" "329"
-			"plane" "(-64 64 -128) (-64 -64 -128) (0 -64 -128)"
-			"material" "BEE2/INVISIBLE_NOPORTAL"
+			"plane" "(-64 64 -72) (-64 -64 -72) (0 -64 -72)"
+			"material" "TOOLS/TOOLSSKIP"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 -1 0 0] 0.25"
 			"rotation" "0"
@@ -695,8 +695,8 @@ world
 		side
 		{
 			"id" "328"
-			"plane" "(-64 -64 -128) (-64 64 -128) (-64 64 -64)"
-			"material" "BEE2/INVISIBLE_NOPORTAL"
+			"plane" "(-64 -64 -72) (-64 64 -72) (-64 64 -64)"
+			"material" "TOOLS/TOOLSSKIP"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -706,8 +706,8 @@ world
 		side
 		{
 			"id" "327"
-			"plane" "(0 64 -128) (0 -64 -128) (0 -64 -64)"
-			"material" "BEE2/INVISIBLE_NOPORTAL"
+			"plane" "(0 64 -72) (0 -64 -72) (0 -64 -64)"
+			"material" "TOOLS/TOOLSSKIP"
 			"uaxis" "[0 1 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -717,8 +717,8 @@ world
 		side
 		{
 			"id" "326"
-			"plane" "(-64 64 -128) (0 64 -128) (0 64 -64)"
-			"material" "BEE2/INVISIBLE_NOPORTAL"
+			"plane" "(-64 64 -72) (0 64 -72) (0 64 -64)"
+			"material" "TOOLS/TOOLSSKIP"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -728,8 +728,8 @@ world
 		side
 		{
 			"id" "325"
-			"plane" "(0 -64 -128) (-64 -64 -128) (-64 -64 -64)"
-			"material" "BEE2/INVISIBLE_NOPORTAL"
+			"plane" "(0 -64 -72) (-64 -64 -72) (-64 -64 -64)"
+			"material" "TOOLS/TOOLSSKIP"
 			"uaxis" "[1 0 0 0] 0.25"
 			"vaxis" "[0 0 -1 0] 0.25"
 			"rotation" "0"
@@ -887,7 +887,7 @@ entity
 	"targetname" "arm1"
 	"texframeindex" "0"
 	"updatechildren" "0"
-	"origin" "-32 32 -62"
+	"origin" "-31.9 32 -62.15"
 	editor
 	{
 		"color" "220 30 220"
@@ -940,7 +940,7 @@ entity
 	"targetname" "arm2"
 	"texframeindex" "0"
 	"updatechildren" "0"
-	"origin" "-32 -32 -61.9456"
+	"origin" "-31.9 -32 -62.15"
 	editor
 	{
 		"color" "220 30 220"

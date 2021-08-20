@@ -4,7 +4,7 @@
 "Item" {
 	"ID" "ITEM_Q4C_QUARTER_STAIRS"
 	"Description" {
-		"" "Quarter-stairs item used when it's needed to climb up 1/4 of voxel. Use the cube type property to modify it's height. Use the button type property to modify the skin (black/white/glass). "
+		"" "Quarter-stairs item used when it's needed to climb up 1/4 of voxel. Use the cube type property to modify it's height. Use the button type property to modify the skin (solid/glass/grating). "
 		"" "* Accepts inputs the same way as original stairs item (and has 'start deployed' checkbox)"
 		"" "* Doesn't reserve voxel in editor (but that means that it's up to you to not mess it up with other items that occupy space inside the voxel they placed on).\n"
 		"" ""
@@ -20,4 +20,12 @@
 "BrushTemplate" {
 	"ID"    "TEMP_QUARTER_STAIRS"
 	"file"  "temp_quarter_stairs.vmf"
+}
+"BrushTemplate" {
+	"ID"	"TEMP_QUARTER_STAIRS_TOP"
+	"file"	"temp_quarter_stairs_top.vmf"
+}
+"BrushTemplate" {
+	"ID"	"TEMP_QUARTER_STAIRS_TOP_GRATING"
+	"file"	"temp_quarter_stairs_top_grating.vmf"
 }

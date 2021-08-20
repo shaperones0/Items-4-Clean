@@ -49,31 +49,23 @@
 	}
 	"Exporting" {
 		"Instances" {
-			"common" "instances/BEE2/clean/quarter_stairs/quarter_stairs_base.vmf"
-			"common_rev" "instances/BEE2/clean/quarter_stairs/quarter_stairs_base.vmf"
 			"0" {
-				"Name" "instances/BEE2/clean/quarter_stairs/quarter_stairs_cover_black.vmf"
-				"EntityCount" "16"
+				"Name" "instances/BEE2/clean/quarter_stairs/quarter_stairs_cover_normal.vmf"
 			}
 			"1" {
-				"Name" "instances/BEE2/clean/quarter_stairs/quarter_stairs_cover_black.vmf"
-				"EntityCount" "16"
+				"Name" "instances/BEE2/clean/quarter_stairs/quarter_stairs_cover_normal.vmf"
 			}
 			"2" {
-				"Name" "instances/BEE2/clean/quarter_stairs/quarter_stairs_cover_white.vmf"
-				"EntityCount" "16"
+				"Name" "instances/BEE2/clean/quarter_stairs/quarter_stairs_cover_glass.vmf"
 			}
 			"3" {
-				"Name" "instances/BEE2/clean/quarter_stairs/quarter_stairs_cover_white.vmf"
-				"EntityCount" "16"
+				"Name" "instances/BEE2/clean/quarter_stairs/quarter_stairs_cover_glass.vmf"
 			}
 			"4" {
-				"Name" "instances/BEE2/clean/quarter_stairs/quarter_stairs_cover_glass.vmf"
-				"EntityCount" "16"
+				"Name" "instances/BEE2/clean/quarter_stairs/quarter_stairs_cover_grating.vmf"
 			}
 			"5" {
-				"Name" "instances/BEE2/clean/quarter_stairs/quarter_stairs_cover_glass.vmf"
-				"EntityCount" "16"
+				"Name" "instances/BEE2/clean/quarter_stairs/quarter_stairs_cover_grating.vmf"
 			}
 		}
 		"TargetName" "quarter_stairs"
