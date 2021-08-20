@@ -1,5 +1,5 @@
 "Item" {
-	"Type" "ITEM_Q4C_QUARTER_STAIRS"
+	"Type" "ITEM_I4C_QUARTER_STAIRS"
 	"ItemClass" "ItemButtonFloor"
 	"Editor" {
 		"SubTypeProperty" "CubeType"

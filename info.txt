@@ -1,8 +1,8 @@
-"ID" "LAUDANUM_QOL_4_CLEAN"
-"Name" "QoL for Clean"
+"ID" "LAUDANUM_ITEMS_4_CLEAN"
+"Name" "Items for Clean"
 
 "Item" {
-	"ID" "ITEM_Q4C_QUARTER_STAIRS"
+	"ID" "ITEM_I4C_QUARTER_STAIRS"
 	"Description" {
 		"" "Quarter-stairs item used when it's needed to climb up 1/4 of voxel. Use the cube type property to modify it's height. Use the button type property to modify the skin (solid/glass/grating). "
 		"" "* Accepts inputs the same way as original stairs item (and has 'start deployed' checkbox)"
