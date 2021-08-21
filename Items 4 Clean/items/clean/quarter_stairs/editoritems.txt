@@ -6,11 +6,59 @@
 		"SubType" {
 			"Name" "Quarter-Stairs"
 			"Model" {
-				"ModelName" "sentry.3ds"
+				"ModelName" "laudanum/quarter_stairs_1.3ds"
 			}
 			"Palette" {
 				"Tooltip" "QUARTER-STAIRS"
 				"Image" "palette/clean/quarter_stairs.png"
+			}
+			"Sounds" {
+				"SOUND_CREATED" "P2Editor.PlaceOther"
+				"SOUND_EDITING_ACTIVATE" "P2Editor.ExpandOther"
+				"SOUND_EDITING_DEACTIVATE" "P2Editor.CollapseOther"
+				"SOUND_DELETED" "P2Editor.RemoveOther"
+			}
+		}
+		"SubType" {		// in entries without "Palette" specified, the "Name" keyvar becomes pointless but it's mandatory (?)
+			"Name" "Quarter-Stairs"
+			"Model" {
+				"ModelName" "laudanum/quarter_stairs_2.3ds"
+			}
+			"Sounds" {
+				"SOUND_CREATED" "P2Editor.PlaceOther"
+				"SOUND_EDITING_ACTIVATE" "P2Editor.ExpandOther"
+				"SOUND_EDITING_DEACTIVATE" "P2Editor.CollapseOther"
+				"SOUND_DELETED" "P2Editor.RemoveOther"
+			}
+		}
+		"SubType" {
+			"Name" "Quarter-Stairs"
+			"Model" {
+				"ModelName" "laudanum/quarter_stairs_3.3ds"
+			}
+			"Sounds" {
+				"SOUND_CREATED" "P2Editor.PlaceOther"
+				"SOUND_EDITING_ACTIVATE" "P2Editor.ExpandOther"
+				"SOUND_EDITING_DEACTIVATE" "P2Editor.CollapseOther"
+				"SOUND_DELETED" "P2Editor.RemoveOther"
+			}
+		}
+		"SubType" {
+			"Name" "Quarter-Stairs"
+			"Model" {
+				"ModelName" "laudanum/quarter_stairs_4.3ds"
+			}
+			"Sounds" {
+				"SOUND_CREATED" "P2Editor.PlaceOther"
+				"SOUND_EDITING_ACTIVATE" "P2Editor.ExpandOther"
+				"SOUND_EDITING_DEACTIVATE" "P2Editor.CollapseOther"
+				"SOUND_DELETED" "P2Editor.RemoveOther"
+			}
+		}
+		"SubType" {				// placeholder 'cause must be set to something usable
+			"Name" "Quarter-Stairs"
+			"Model" {
+				"ModelName" "laudanum/quarter_stairs_4.3ds"
 			}
 			"Sounds" {
 				"SOUND_CREATED" "P2Editor.PlaceOther"

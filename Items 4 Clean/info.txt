@@ -9,7 +9,7 @@
 		"" "* Use the handle and 'start reversed' checkbox to position item as you want"
 		"" "* Doesn't reserve voxel in editor (but that means that it's up to you to not mess it up with other items that occupy space inside the voxel they placed on).\n"
 		"" ""
-		"" "Known Issue: it's model sometimes can be partially seen through the side wall of voxel it placed on. too hard to fix"
+		"" "Known Issue: it's editor model is confusing to work with + it's selection hitbox doesn't match with it's actual model (thanks valve very cool). i know how to fix the latter, but i'll do it later"
 	}
 	"Version" {
 		"ID" "VER_DEFAULT"
