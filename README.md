@@ -1,5 +1,5 @@
 # Items-4-Clean
-repo for some items i'm trying to make. currently features quarter-stairs (wip tho but usable)
+repo for some items i'm trying to make. currently features quarter-stairs.
 see https://github.com/Laudanum-dev/Items-4-Clean/projects for all plans about this package
 # features:
 * __quarter stairs__: allows to climb up 1/4 of voxel. has 3 different skins (standard/glass/grating), accepts inputs pretty much the same way as original stairs item. see it's [project page](https://github.com/Laudanum-dev/Items-4-Clean/projects/2) for plans and improvements on this item
