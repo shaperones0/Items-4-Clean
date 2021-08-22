@@ -34,14 +34,29 @@
 "Item" {
 	"ID" "ITEM_I4C_WORLD_PORTAL"
 	"Description" {
-		"" "World-Portal allows you to create seamless transition between remote area. This one has fixed the annoying bug where it closes after you save and load"
+		"" "World-Portal allows you to create seamless transition between remote areas. This one has fixed the annoying bug where it closes after you save and load"
 		"" "* Connect two of them via antlines"
+		"" "* Known issue: when these are placed close to eachother, a small invisible solid pole pops up, don't really know how to fix it"
 
 	}
 	"Version" {
 		"ID" "VER_DEFAULT"
 		"Styles" {
 			"ANY_STYLE" "clean/world_portal"
+		}
+	}
+}
+"Item" {
+	"ID" "ITEM_I4C_PLAYER_START"
+	"Description" {
+		"" "Overrides the default player spawn. Uncheck 'start_enabled' to remove all the soundscapes and other things pre-placed. "
+		"" "* Fires output when player spawns"
+		"" "* If 'start enabled' is disabled, then it won't start music, soundscapes, things like droppers with 'auto-drop first cube', and lights of large observation room will be off. However, player will be given portal gun as he should be"
+	}
+	"Version" {
+		"ID" "VER_DEFAULT"
+		"Styles" {
+			"ANY_STYLE" "clean/player_start"
 		}
 	}
 }
