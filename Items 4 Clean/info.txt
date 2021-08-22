@@ -60,3 +60,15 @@
 		}
 	}
 }
+"Item" {
+	"ID" "ITEM_I4C_PLAYER_END"
+	"Description" {
+		"" "A Small input receiver, that will instantly pop up the end screen when you activate it, indicating map end"
+	}
+	"Version" {
+		"ID" "VER_DEFAULT"
+		"Styles" {
+			"ANY_STYLE" "clean/player_end"
+		}
+	}
+}
