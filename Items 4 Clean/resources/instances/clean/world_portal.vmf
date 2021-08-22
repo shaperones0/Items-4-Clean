@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8973"
-	"mapversion" "6"
+	"mapversion" "9"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "6"
+	"mapversion" "9"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -35,7 +35,7 @@ entity
 	"angles" "0 0 -180"
 	"height" "64"
 	"partnername" "$linked_portal"
-	"startactive" "0"
+	"startactive" "1"
 	"targetname" "$portal_name"
 	"width" "64"
 	"origin" "-64 0 0"
@@ -49,27 +49,6 @@ entity
 }
 entity
 {
-	"id" "19"
-	"classname" "logic_branch"
-	"angles" "0 0 0"
-	"initialvalue" "0"
-	"targetname" "input"
-	connections
-	{
-		"OnTrue" "$portal_nameOpen0-1"
-		"OnFalse" "$portal_nameClose0-1"
-	}
-	"origin" "0 64 0"
-	editor
-	{
-		"color" "0 100 250"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 500]"
-	}
-}
-entity
-{
 	"id" "32"
 	"classname" "logic_auto"
 	"angles" "0 0 0"
@@ -77,8 +56,8 @@ entity
 	"targetname" "auto"
 	connections
 	{
-		"OnMapSpawn" "inputTest0-1"
 		"OnMapSpawn" "$portal_nameSetPartner$linked_portal0-1"
+		"OnMapSpawn" "$portal_nameOpen0-1"
 	}
 	"origin" "0 -64 0"
 	editor
@@ -95,7 +74,6 @@ entity
 	"classname" "func_instance_parms"
 	"parm1" "$linked_portal string"
 	"parm2" "$portal_name string"
-	"parm3" "$start_active string"
 	"origin" "0 0 0"
 	editor
 	{

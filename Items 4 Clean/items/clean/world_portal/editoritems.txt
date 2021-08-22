@@ -28,10 +28,6 @@
 			"DefaultValue"	"0"
 			"Index"			"0"
 		}
-		"StartLocked" {
-			"DefaultValue"	"0"
-			"Index"			"1"
-		}
 	}
 	"Exporting" {
 		"Instances" {
@@ -42,19 +38,17 @@
 		"TargetName" "wprtl"
 		"Offset" "64 64 64"
 
-		"Inputs" {
+		"Inputs" {		// i wanted to implement proper input and output for portals but i failed :(
 			"BEE2" {
 				"Type"          "AND"
-				"invertVar"     "$start_locked"
-				"SpawnFire" 	"always"
 				"Enable_Cmd"    "input,SetValueTest,1,0,-1"
 				"Disable_Cmd"   "input,SetValueTest,0,0,-1"
 			}
 		}
 		"Outputs" {
 			"BEE2" {
-				"out_activate"		"instance:input;OnFalse"
-				"out_deactivate"	"instance:input;OnTrue"
+				"out_activate"		"DESPACITO"
+				"out_deactivate"	"AMOGUS"
 			}
 		}
 
@@ -67,71 +61,59 @@
 			}
 		}
 
-		"ConnectionPoints"
-			{
-				// left
-				"Point"
-				{
-					"Dir"				"1 0 0"
-					"Pos"				"-1 3 0"
-					"SignageOffset"		"-2 2 0"
-					"Priority"  "0"
-				}
-				"Point"
-				{
-					"Dir"				"1 0 0"
-					"Pos"				"-1 4 0"
-					"SignageOffset"		"-2 5 0"
-					"Priority"  "0"
-				}
-
-				// right
-				"Point"
-				{
-					"Dir"				"-1 0 0"
-					"Pos"				"8 3 0"
-					"SignageOffset"		"9 2 0"
-					"Priority"  "0"
-				}
-				"Point"
-				{
-					"Dir"				"-1 0 0"
-					"Pos"				"8 4 0"
-					"SignageOffset"		"9 5 0"
-					"Priority"  "0"
-				}
-
-				// up
-				"Point"
-				{
-					"Dir"				"0 1 0"
-					"Pos"				"3 -1 0"
-					"SignageOffset"		"2 -2 0"
-					"Priority"  "0"
-				}
-				"Point"
-				{
-					"Dir"				"0 1 0"
-					"Pos"				"4 -1 0"
-					"SignageOffset"		"5 -2 0"
-					"Priority"  "0"
-				}
-
-				// down
-				"Point"
-				{
-					"Dir"				"0 -1 0"
-					"Pos"				"3 8 0"
-					"SignageOffset"		"2 9 0"
-					"Priority"  "0"
-				}
-				"Point"
-				{
-					"Dir"				"0 -1 0"
-					"Pos"				"4 8 0"
-					"SignageOffset"		"5 9 0"
-					"Priority"  "0"
-				}
+		"ConnectionPoints" {
+			// left
+			"Point" {
+				"Dir"				"1 0 0"
+				"Pos"				"-1 3 0"
+				"SignageOffset"		"-2 2 0"
+				"Priority"  "0"
 			}
+			"Point" {
+				"Dir"				"1 0 0"
+				"Pos"				"-1 4 0"
+				"SignageOffset"		"-2 5 0"
+				"Priority"  "0"
+			}
+			// right
+			"Point" {
+				"Dir"				"-1 0 0"
+				"Pos"				"8 3 0"
+				"SignageOffset"		"9 2 0"
+				"Priority"  "0"
+			}
+			"Point" {
+				"Dir"				"-1 0 0"
+				"Pos"				"8 4 0"
+				"SignageOffset"		"9 5 0"
+				"Priority"  "0"
+			}
+			// up
+			"Point" {
+				"Dir"				"0 1 0"
+				"Pos"				"3 -1 0"
+				"SignageOffset"		"2 -2 0"
+				"Priority"  "0"
+			}
+			"Point" {
+				"Dir"				"0 1 0"
+				"Pos"				"4 -1 0"
+				"SignageOffset"		"5 -2 0"
+				"Priority"  "0"
+			}
+			// down
+			"Point" {
+				"Dir"				"0 -1 0"
+				"Pos"				"3 8 0"
+				"SignageOffset"		"2 9 0"
+				"Priority"  "0"
+			}
+			"Point" {
+				"Dir"				"0 -1 0"
+				"Pos"				"4 8 0"
+				"SignageOffset"		"5 9 0"
+				"Priority"  "0"
+			}
+		}
 	}
 }
