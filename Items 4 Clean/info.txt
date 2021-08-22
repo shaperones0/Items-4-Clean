@@ -34,9 +34,8 @@
 "Item" {
 	"ID" "ITEM_I4C_WORLD_PORTAL"
 	"Description" {
-		"" "World-Portal allows you to create seamless transition between remote area. This one has fixed the annoying bug where it closes after you save and load, plus it accepts inputs to be closed or opened accordingly."
+		"" "World-Portal allows you to create seamless transition between remote area. This one has fixed the annoying bug where it closes after you save and load"
 		"" "* Connect two of them via antlines"
-		"" "* Combine Start Locked checkbox and inputs and outputs to make this item work as you need"
 
 	}
 	"Version" {
