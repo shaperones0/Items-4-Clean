@@ -36,7 +36,7 @@
 	"Description" {
 		"" "World-Portal allows you to create seamless transition between remote areas. This one has fixed the annoying bug where it closes after you save and load"
 		"" "* Connect two of them via antlines"
-		"" "* Known issue: when these are placed close to eachother, a small invisible solid pole pops up, don't really know how to fix it"
+		"" "* Known issue: when these are placed close to eachother, a small invisible solid pole pops up between them, don't really know how to fix it"
 
 	}
 	"Version" {
@@ -70,5 +70,170 @@
 		"Styles" {
 			"ANY_STYLE" "clean/player_end"
 		}
+	}
+}
+"Item" {
+	"ID" "ITEM_I4C_MUSIC_PLAYER"
+	"Description" {
+		"" "A small input receiver, that will play music file. It'a main difference between the sound player is that this item has unlimited range"
+	}
+	"Version" {
+		"ID" "VER_DEFAULT"
+		"Styles" {
+			"ANY_STYLE" "clean/music_player"
+		}
+	}
+}
+"ConfigGroup" {
+    "ID"    "MUSIC_PLAYER"
+    "Name"  "Music Player - Music"
+    "Widget" {
+        "ID"        "I4C_MUSIC"
+        "Label"     "Sound"
+        "Type"      "String"
+        "UseTimer"  "1"
+        "Default" {
+	    	"1"	 ""
+	    	"2"  ""
+            "3"  ""
+            "4"  ""
+            "5"  ""
+            "6"  ""
+            "7"  ""
+            "8"  ""
+            "9"  ""
+            "10" ""
+            "11" ""
+            "12" ""
+            "13" ""
+            "14" ""
+            "15" ""
+            "16" ""
+            "17" ""
+            "18" ""
+            "19" ""
+            "20" ""
+            "21" ""
+            "22" ""
+            "23" ""
+            "24" ""
+            "25" ""
+            "26" ""
+            "27" ""
+            "28" ""
+            "29" ""
+            "30" ""
+		}
+        "Tooltip" "Music for Music Player"
+	}
+}
+"Item" {
+	"ID" "ITEM_I4C_SOUND_PLAYER"
+	"Description" {
+		"" "A small input receiver, that will play sound file. It'a main difference between the music player, is that sound player has limited range."
+	}
+	"Version" {
+		"ID" "VER_DEFAULT"
+		"Styles" {
+			"ANY_STYLE" "clean/sound_player"
+		}
+	}
+}
+"ConfigGroup" {
+    "ID"    "SOUND_PLAYER"
+    "Name"  "Sound Player - Sound"
+    "Widget" {
+        "ID"        "I4C_SOUND"
+        "Label"     "Sound"
+        "Type"      "String"
+        "UseTimer"  "1"
+        "Default" {
+	    	"1"	 ""
+	    	"2"  ""
+            "3"  ""
+            "4"  ""
+            "5"  ""
+            "6"  ""
+            "7"  ""
+            "8"  ""
+            "9"  ""
+            "10" ""
+            "11" ""
+            "12" ""
+            "13" ""
+            "14" ""
+            "15" ""
+            "16" ""
+            "17" ""
+            "18" ""
+            "19" ""
+            "20" ""
+            "21" ""
+            "22" ""
+            "23" ""
+            "24" ""
+            "25" ""
+            "26" ""
+            "27" ""
+            "28" ""
+            "29" ""
+            "30" ""
+		}
+        "Tooltip" "Music for Sound Player"
+	}
+}
+"Item" {
+	"ID" "ITEM_I4C_SOUNDSCAPE_PLAYER"
+	"Description" {
+		"" "A small input receiver, that can set defined soundscape as current. When activated, the new soundscape will slowly fade in. Only one soundscape can be active at the time, so if several are activate at the same time, the nearest one will be played. Also, soundscape won't enable if there is no line of sight between the item and player. Notice, that the soundscape can't be 'disabled', if you want to change it to silence, then you need the soundscape 'Nothing' to be enabled."
+	}
+	"Version" {
+		"ID" "VER_DEFAULT"
+		"Styles" {
+			"ANY_STYLE" "clean/soundscape_player"
+		}
+	}
+}
+"ConfigGroup" {
+    "ID"    "SOUNDSCAPE_PLAYER"
+    "Name"  "Soundscape Player - Soundscape"
+    "Widget" {
+        "ID"        "I4C_SOUNDSCAPE"
+        "Label"     "Sound"
+        "Type"      "String"
+        "UseTimer"  "1"
+        "Default" {
+	    	"1"	 ""
+	    	"2"  ""
+            "3"  ""
+            "4"  ""
+            "5"  ""
+            "6"  ""
+            "7"  ""
+            "8"  ""
+            "9"  ""
+            "10" ""
+            "11" ""
+            "12" ""
+            "13" ""
+            "14" ""
+            "15" ""
+            "16" ""
+            "17" ""
+            "18" ""
+            "19" ""
+            "20" ""
+            "21" ""
+            "22" ""
+            "23" ""
+            "24" ""
+            "25" ""
+            "26" ""
+            "27" ""
+            "28" ""
+            "29" ""
+            "30" ""
+		}
+        "Tooltip" "Soundscape for Soundscape Player"
 	}
 }

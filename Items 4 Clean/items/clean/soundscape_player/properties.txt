@@ -1,0 +1,8 @@
+"Properties" {
+	"Authors"		"Laudanum"
+	"Tags"			"Custom"
+	"infoURL"		""
+	"Icon" {
+		"0"	"clean/soundscape_player.png"
+	}
+}

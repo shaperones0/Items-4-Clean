@@ -1,0 +1,9 @@
+"Properties" {
+	"Authors"		"Laudanum"
+	"Tags"			"Custom"
+	"infoURL"		""
+	"Ent_count"     "2 - Trigger, 3 - Toggle"
+	"Icon" {
+		"0"	"clean/music_player.png"
+	}
+}

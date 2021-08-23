@@ -1,16 +1,18 @@
 "Item" {
-	"Type" "ITEM_I4C_PLAYER_END"
-	"Editor" {
-		"SubType" {
-			"Name" "Player End"
+    "Type" "ITEM_SOUND_PLAYER"
+    
+    "Editor" {
+        "SubType" {
+			"Name" "Sound Player"
 			"Model" {
-				"ModelName" "laudanum/player_end.3ds"
+				"ModelName"		"laudanum/sound_player.3ds"
 			}
 			"Palette" {
-				"Tooltip" "PLAYER END"
-				"Image" "palette/clean/player_end.png"
+				"Tooltip"	"SOUND PLAYER"
+				"Image"		"palette/clean/sound_player.png"
+				"Position"	"1 6 0"
 			}
-			"Sounds" {
+		    "Sounds" {
 				"SOUND_CREATED" "P2Editor.PlaceOther"
 				"SOUND_EDITING_ACTIVATE" "P2Editor.ExpandOther"
 				"SOUND_EDITING_DEACTIVATE" "P2Editor.CollapseOther"
@@ -18,40 +20,40 @@
 			}
 		}
 		"MovementHandle" "HANDLE_4_DIRECTIONS"
+		"InvalidSurface" ""
+		"CanAnchorOnBarriers" "0"
+		"CanAnchorOnGoo" "0"
 	}
 	"Properties" {
 		"ConnectionCount" {
+			"DefaultValue" "0"
+			"Index" "0"
+		}
+		"AutoDrop" {
 			"DefaultValue"	"0"
-			"Index"			"0"
+			"Index"			"1"
+		}
+		"TimerDelay" {
+			"DefaultValue" "3"
+			"Index"        "30"
 		}
 	}
 	"Exporting" {
 		"Instances" {
 			"0" {
-				"Name" "instances/BEE2/clean/player_end.vmf"
+				"Name" "instances/BEE2/clean/sound_player.vmf"
 			}
 		}
-		"TargetName" "plrend"
-		"Offset" "64 64 64"
 
+		"TargetName"		"splyr"
 		"Inputs" {
 			"BEE2" {
 				"Type"          "AND"
-				"Enable_Cmd"    "input,Trigger,,0,-1"
-				"Disable_Cmd"   "input,Trigger,,0,-1"
+				"Enable_Cmd"    "input,FireUser1,,0,-1"
+				"Disable_Cmd"   "input,FireUser2,,0,-1"
 			}
 		}
-
-		"OccupiedVoxels" {
-			"Voxel" {
-				"Pos"		"0 0 0"
-				"Surface" {
-					"Normal"	"0 0 1"
-				}
-			}
-		}
-
-
+		"Offset"		"64 64 64"
 		"ConnectionPoints" {
 			// left
 			"Point" {
@@ -108,4 +110,3 @@
 		}
 	}
 }
-
