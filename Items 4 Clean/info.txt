@@ -237,3 +237,15 @@
         "Tooltip" "Soundscape for Soundscape Player"
 	}
 }
+"Item" {
+	"ID" "ITEM_I4C_SUPER_LIGHT"
+	"Description" {
+		"" "Creates super light, which makes everything lit. Useful thing when editing chamber geometry, but effect is very unrealistic, so this item should be removed when publishing."
+	}
+	"Version" {
+		"ID" "VER_DEFAULT"
+		"Styles" {
+			"ANY_STYLE" "clean/super_light"
+		}
+	}
+}
