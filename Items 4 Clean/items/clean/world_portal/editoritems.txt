@@ -27,6 +27,10 @@
 			"DefaultValue"	"0"
 			"Index"			"0"
 		}
+		"StartEnabled" {
+			"Index"			"1"
+			"DefaultValue"	"0"
+		}
 	}
 	"Exporting" {
 		"Instances" {
@@ -42,6 +46,8 @@
 				"Type"          "AND"
 				"Enable_Cmd"    "input,SetValueTest,1,0,-1"
 				"Disable_Cmd"   "input,SetValueTest,0,0,-1"
+				"invertVar"		"$start_enabled"
+				"spawnFire"		"always"
 			}
 		}
 		"Outputs" {
