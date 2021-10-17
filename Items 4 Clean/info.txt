@@ -249,3 +249,15 @@
 		}
 	}
 }
+"Item" {
+	"ID" "ITEM_I4C_INSTANT_TELEPORTER"
+	"Description" {
+		"" "Instantly teleports player to this item location when activated by inputs. Should be used for life preserving"
+	}
+	"Version" {
+		"ID" "VER_DEFAULT"
+		"Styles" {
+			"ANY_STYLE" "clean/instant_teleporter"
+		}
+	}
+}

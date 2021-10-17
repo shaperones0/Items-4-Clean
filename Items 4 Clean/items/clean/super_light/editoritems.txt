@@ -1,0 +1,35 @@
+"Item" {
+	"Type" "ITEM_I4C_SUPER_LIGHT"
+	"Editor" {
+		"SubType" {
+			"Name" "Super Light"
+			"Model" {		// insert non-placeholder model here
+				"ModelName" "laudanum/super_light.3ds"
+			}
+			"Palette" {
+				"Tooltip" "SUPER LIGHT"
+				"Image" "palette/clean/super_light.png"
+			}
+			"Sounds" {
+				"SOUND_CREATED" "P2Editor.PlaceOther"
+				"SOUND_EDITING_ACTIVATE" "P2Editor.ExpandOther"
+				"SOUND_EDITING_DEACTIVATE" "P2Editor.CollapseOther"
+				"SOUND_DELETED" "P2Editor.RemoveOther"
+			}
+		}
+		"MovementHandle" "HANDLE_4_DIRECTIONS"
+		"DesiredFacing" "DESIRES_ANYTHING"
+		"InvalidSurface" "  "
+		"CanAnchorOnBarriers" "1"
+		"CanAnchorOnGoo" "0"
+	}
+	"Exporting" {
+		"Instances" {
+			"0" {
+				"Name" "instances/BEE2/clean/super_light.vmf"
+			}
+		}
+		"TargetName" "sprlght"
+		"Offset" "64 64 64"
+	}
+}
