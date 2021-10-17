@@ -19,7 +19,6 @@
 		}
 		"MovementHandle" "HANDLE_4_DIRECTIONS"
 		"DesiredFacing" "DESIRES_ANYTHING"
-		"InvalidSurface" "CEILING WALL"
 		"CanAnchorOnBarriers" "0"
 		"CanAnchorOnGoo" "0"
 	}

@@ -2,7 +2,7 @@ versioninfo
 {
 	"editorversion" "400"
 	"editorbuild" "8973"
-	"mapversion" "9"
+	"mapversion" "10"
 	"formatversion" "100"
 	"prefab" "0"
 }
@@ -20,7 +20,7 @@ viewsettings
 world
 {
 	"id" "1"
-	"mapversion" "9"
+	"mapversion" "10"
 	"classname" "worldspawn"
 	"detailmaterial" "detail/detailsprites"
 	"detailvbsp" "detail.vbsp"
@@ -34,9 +34,9 @@ entity
 	"classname" "linked_portal_door"
 	"angles" "0 0 -180"
 	"height" "64"
-	"partnername" "$linked_portal"
+	"partnername" "@wrdprtl_grp$group_$next"
 	"startactive" "1"
-	"targetname" "$portal_name"
+	"targetname" "@wrdprtl_grp$group_$ind"
 	"width" "64"
 	"origin" "-64 0 0"
 	editor
@@ -56,31 +56,16 @@ entity
 	"targetname" "auto"
 	connections
 	{
-		"OnMapSpawn" "$portal_nameSetPartner$linked_portal0-1"
-		"OnMapSpawn" "$portal_nameOpen0-1"
+		"OnMapSpawn" "@wrdprtl_grp$group_$indSetPartner@wrdprtl_grp$group_$next0-1"
+		"OnMapSpawn" "@wrdprtl_grp$group_$indOpen0-1"
 	}
-	"origin" "0 -64 0"
+	"origin" "0 0 0"
 	editor
 	{
 		"color" "0 100 250"
 		"visgroupshown" "1"
 		"visgroupautoshown" "1"
 		"logicalpos" "[0 1000]"
-	}
-}
-entity
-{
-	"id" "53"
-	"classname" "func_instance_parms"
-	"parm1" "$linked_portal string"
-	"parm2" "$portal_name string"
-	"origin" "0 0 0"
-	editor
-	{
-		"color" "220 30 220"
-		"visgroupshown" "1"
-		"visgroupautoshown" "1"
-		"logicalpos" "[0 1500]"
 	}
 }
 cameras
